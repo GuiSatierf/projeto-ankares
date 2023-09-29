@@ -96,12 +96,12 @@ button {
   background-position: center center;
   height: 700px;
   width: 100%;
-  margin-top: -200px;
+  margin-top: -115px;
 }
 
 .firstSection {
-  background: #1A1A1A;
-  opacity: .96;
+  background: rgb(52,52,52);
+  background: linear-gradient(180deg, rgba(36, 36, 36, 0.97) 0%, rgba(13,13,13,1) 100%);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -111,10 +111,22 @@ button {
   border-radius: 50px;
 }
 
+.firstSection .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
 .firstSection .intro h1 {
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 1px;
+}
+
+.firstSection .intro a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .carousel { 
@@ -162,4 +174,16 @@ button {
 	border-radius: 100px;
 	background-color: #fff;
   width: 150px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.text p {
+  font-size: 24px;
+  width: 75%;
 }
